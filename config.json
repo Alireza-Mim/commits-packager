@@ -1,0 +1,10 @@
+[
+{
+  "source": { "root": "testfolder", "include: ["*.js"], "exclude": ["jq*.js"], "recursive": true},
+  "dest": "testdest"
+},
+{
+  "source": { "root": "testfolder/css", "include: ["*.css"], "exclude": [], "recursive": false},
+  "dest": "testdest/css"
+}
+]
